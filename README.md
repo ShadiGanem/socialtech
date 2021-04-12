@@ -17,11 +17,11 @@ To run project:
 cd client
 npm i 
 lerna bootstrap
+
 ```
 
 Generating files for client and start the client:
 
 ```sh
-cd /packages/app
-npm start
+lerna run start:webpack
 ```
