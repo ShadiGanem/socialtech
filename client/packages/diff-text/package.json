@@ -1,0 +1,26 @@
+{
+  "name": "@test-assignment/diff-text",
+  "version": "1.0.0",
+  "author": "Shadi <ganem.shady@gmail.com>",
+  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "directories": {
+    "dist": "dist",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json --clean",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "typescript": "^4.2.3"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.13.0",
+    "@types/jest": "^26.0.22",
+    "jest": "^26.6.3"
+  }
+}
