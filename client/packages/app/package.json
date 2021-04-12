@@ -12,7 +12,7 @@
     "dist"
   ],
   "scripts": {
-    "start": "webpack serve --mode=development",
+    "start:webpack": "webpack serve --mode=development --open",
     "build": "tsc -p tsconfig.build.json --clean",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
